@@ -2,3 +2,6 @@
 #_internal:
 #   resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
 #   prefix:   /_internal
+
+_all_doc:
+    resource: "routing_doc.yml"

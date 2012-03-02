@@ -7,6 +7,13 @@ use Symfony\Component\Form\FormBuilder;
 
 class GenderType extends AbstractType
 {
+    private $genderChoices;
+
+    public function __construct(array $genderChoices)
+    {
+        $this->genderChoices = $genderChoices;
+    }
+
     public function getDefaultOptions(array $options)
     {
         return array(

@@ -1,6 +1,7 @@
 imports:
     - { resource: parameters.ini }
     - { resource: security.yml }
+    - { resource: @AcmeDemoBundle/Resources/config/services.yml }
 
 parameters:
     genders:
