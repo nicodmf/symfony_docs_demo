@@ -1,0 +1,8 @@
+# src/Acme/DemoBundle/Resources/config/services.yml
+services:
+    form.type.gender:
+        class: Acme\DemoBundle\Form\Type\GenderType
+        arguments:
+            - "%genders%"
+        tags:
+            - { name: form.type, alias: gender }
